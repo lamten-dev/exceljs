@@ -1,0 +1,8 @@
+{
+  // We disable format on save for JavaScript files because the source code of ExcelJS is 
+  // in javascript and we don't want to format it, otherwise it will be impossible to merge
+  // the changes from the upstream repository.
+  "[javascript]": {
+    "editor.formatOnSave": false,
+  }
+}
